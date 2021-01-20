@@ -1,0 +1,11 @@
+System.out.println("the wining numbers are! :");
+        int[] lotto = new int[6];
+            for (int index = 0; index < lotto.length; index++) {
+                lotto[index] = r.nextInt(37+1);
+                System.out.print(lotto[index]);
+                System.out.print(" ");
+            }
+        System.out.println();
+        System.out.println("and the strong number is :");
+           int raa = r.nextInt(7 )+1;
+        System.out.println(raa);
